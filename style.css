@@ -42,6 +42,6 @@
   background-color: orangered;
 }
 
-.box:nth-last-child(4)~.box{
+.box:nth-last-child(-n+3)~.box{
   margin-bottom: 0;
 }
